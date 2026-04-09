@@ -11,7 +11,7 @@ Helpmonks is a hosted MCP server that connects any MCP-compatible AI tool to you
 - **Contact management** — search and manage customer contacts
 - **Label & filter** — organise conversations by labels and status
 - **29 tools** — full shared inbox operations via natural language
-- **Two data centers** — US (`mcp.helpmonks.com`) and EU (`mcp-eu.helpmonks.com`)
+- **Two data centers** — US (`mcp.helpmonks.com`) and EU (`mcp.helpmonks.eu`)
 
 ## Quick Start
 
@@ -39,7 +39,7 @@ Helpmonks is a hosted MCP server that connects any MCP-compatible AI tool to you
 {
   "mcpServers": {
     "helpmonks": {
-      "url": "https://mcp-eu.helpmonks.com/sse",
+      "url": "https://mcp.helpmonks.eu/sse",
       "headers": {
         "access-token": "YOUR_ACCESS_TOKEN"
       }
@@ -80,7 +80,7 @@ All requests require an `access-token` header. Get your token from your Helpmonk
 | Region | URL |
 |---|---|
 | US | `https://mcp.helpmonks.com/sse` |
-| EU | `https://mcp-eu.helpmonks.com/sse` |
+| EU | `https://mcp.helpmonks.eu/sse` |
 
 ## License
 
